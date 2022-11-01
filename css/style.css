@@ -46,3 +46,41 @@ a {
 .adress-link a {
   color: var(--second-color);
 }
+.hero {
+  background-color: var(--bg-color);
+}
+.main-title {
+  font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;  
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;  
+    color: #FFFFFF;
+}
+.btn {
+  font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;  
+    text-align: center;
+    letter-spacing: 0.06em;  
+    color: #FFFFFF;
+    background-color: var(--brand-color);
+}
+.btn:hover,
+.btn:focus{
+background-color: #188CE8;
+}
+.features h3 {
+  font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.features p {
+  font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+  color: var(--second-color);
+}
