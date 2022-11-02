@@ -27,9 +27,6 @@ a {
 .accent {
   color: var(--brand-color);
 }
-.current li {
-  color: var(--brand-color);
-}
 .nav-link a,
 .adress-link a {
   font-weight: 500;
@@ -46,6 +43,9 @@ a {
 .footer-contact a:hover,
 .footer-adress a:focus,
 .footer-contact a:focus {
+  color: var(--brand-color);
+}
+.current a {
   color: var(--brand-color);
 }
 .adress-link a {
