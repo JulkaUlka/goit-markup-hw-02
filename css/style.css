@@ -15,7 +15,8 @@ li {
 a {
   text-decoration: none;
 }
-.logo {
+.logo,
+.footer-logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -33,14 +34,18 @@ a {
 .adress-link a {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-color);
 }
 .nav-link a:hover,
 .nav-link a:focus,
 .adress-link a:hover,
-.adress-link a:focus {
+.adress-link a:focus,
+.footer-adress a:hover,
+.footer-contact a:hover,
+.footer-adress a:focus,
+.footer-contact a:focus {
   color: var(--brand-color);
 }
 .adress-link a {
@@ -51,36 +56,79 @@ a {
 }
 .main-title {
   font-weight: 900;
-    font-size: 44px;
-    line-height: 1.4;  
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;  
-    color: #FFFFFF;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
 }
 .btn {
+  font-family: 'Roboto', sans-serif;
   font-weight: 700;
-    font-size: 16px;
-    line-height: 1.9;  
-    text-align: center;
-    letter-spacing: 0.06em;  
-    color: #FFFFFF;
-    background-color: var(--brand-color);
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: var(--brand-color);
+  cursor: pointer;
 }
 .btn:hover,
-.btn:focus{
-background-color: #188CE8;
+.btn:focus {
+  background-color: #188ce8;
 }
 .features h3 {
   font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .features p {
   font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
   color: var(--second-color);
+}
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.team {
+  background-color: #f5f4fa;
+}
+.team h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.team p {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--second-color);
+}
+.footer {
+  background-color: var(--bg-color);
+}
+.footer-logo {
+  color: #ffffff;
+}
+.footer-adress a,
+.footer-contact a {
+  color: #ffffff;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.footer-contact a {
+  color: rgba(255, 255, 255, 0.6);
 }
