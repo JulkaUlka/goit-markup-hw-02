@@ -115,6 +115,34 @@ a {
   letter-spacing: 0.03em;
   color: var(--second-color);
 }
+.works h2 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.works p {
+  font-size: 18px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: var(--second-color);
+}
+.filter-btn button {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background-color: #f5f4fa;
+  color: var(--main-color);
+  cursor: pointer;
+}
+.filter-btn button:hover,
+.filter-btn button:focus {
+  color: #ffffff;
+  background-color: var(--brand-color);
+}
 .footer {
   background-color: var(--bg-color);
 }
